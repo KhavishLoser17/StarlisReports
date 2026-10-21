@@ -214,14 +214,14 @@
         <!-- HEADER WITH LOGO -->
         <div class="text-center mb-4">
             <div style="display:flex; align-items:center; justify-content:center; gap:16px;">
-                <img src="/images/acebaliwag.png" alt="Hospital Logo" class="hospital-logo"
+                <img src="/images/aventus.png" alt="Hospital Logo" class="hospital-logo"
                      onerror="this.style.display='none'">
                 <div>
                     <h2 class="text-lg font-bold text-slate-800" id="report-title">
                         Received-Releasing TAT - Date Requested by: ALL
                     </h2>
                     <p class="text-sm text-slate-700 mt-1">
-                        <strong>Laboratory:</strong> ACE MEDICAL CENTER - BALIWAG
+                        <strong>Laboratory:</strong> AVENTUS MEDICAL CLINIC - IT PARK CEBU
                     </p>
                 </div>
             </div>
@@ -291,7 +291,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <script>
 const API_BASE = '/api/tat-report';
-const LAB_NAME = 'ACE MEDICAL CENTER - BALIWAG';
+const LAB_NAME = 'AVENTUS MEDICAL CLINIC - IT PARK CEBU';
 
 let reportData = [];
 const $ = (id) => document.getElementById(id);
